@@ -74,6 +74,15 @@ int main(void)
                 if (nextinput == 1)
                 {
                     // solve manually
+                    int x, y, z;
+                    x = 0;
+                    y = 0;
+                    z = 0;
+                    mcpp::Coordinate coords = mcpp::Coordinate(x, y, z);
+                    coords = mc.getPlayerPosition();
+
+                    // int randx = rand() %
+                    // mc.setPlayerPosition(coords);
                 }
                 else if (nextinput == 2)
                 {
