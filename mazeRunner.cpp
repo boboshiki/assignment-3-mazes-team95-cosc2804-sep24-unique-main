@@ -80,8 +80,9 @@ int main(void)
                     z = 0;
                     mcpp::Coordinate coords = mcpp::Coordinate(x, y, z);
                     coords = mc.getPlayerPosition();
-
+                    // teleport them to a random pos in the maze
                     // int randx = rand() %
+                    // int randz = rand() %
                     // mc.setPlayerPosition(coords);
                 }
                 else if (nextinput == 2)
